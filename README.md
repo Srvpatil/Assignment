@@ -1,4 +1,4 @@
-# Quaternion Operations on ARM (Bare-Metal)
+# Quaternion Operations.
 
 This project implements quaternion operations such as multiplication, dot product, and conjugate using the C99 standard. The project is set up for cross-compiling and testing on ARM architecture in a bare-metal environment using `arm-none-eabi-gcc`.
 
