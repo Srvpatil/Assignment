@@ -2,6 +2,10 @@
 
 This project implements quaternion operations such as multiplication, dot product, and conjugate using the C99 standard. The project is set up for cross-compiling and testing on ARM architecture in a bare-metal environment using `arm-none-eabi-gcc`.
 
+## Logic
+
+The code deals with quaternions, which are used for 3D rotations. It has basic operations like creating a quaternion with quat(), getting its conjugate (flipping the vector signs) using complement_quat(), multiplying two quaternions with mult_quat(), and checking their similarity with dot_quat(). In the main() function, it creates a quaternion, computes its conjugate, multiplies them, and calculates the dot product, then prints the results.	
+
 ## Requirements
 
 - ARM cross-compiler: `arm-none-eabi-gcc`
